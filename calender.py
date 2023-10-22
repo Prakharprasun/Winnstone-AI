@@ -1,6 +1,6 @@
 # Define a class for tasks
 class Task:
-    def _init_(self, name, duration, priority):
+    def __init__(self,name,duration,priority):
         self.name = name # The name of the task
         self.duration = duration # The duration of the task in minutes
         self.priority = priority # The priority level of the task from 1 (highest) to 5 (lowest)
